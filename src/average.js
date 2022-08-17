@@ -11,6 +11,8 @@
     - average([1, '2']) // Retorno: undefined;
 */
 
+/* Utilizei a função Math.round () - https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Math/round */
+
 const average = (myArray) => {
   let sum = 0;
   let media = '';
