@@ -129,7 +129,7 @@ describe('10 - Implemente a função `createMenu`, bem como seus casos de teste'
       // ```
       // ```
       test('TESTE 8', () => {
-        const objetoQualquer = { food: {coxinha: 4.9, sopa: 9.9}, drink: {agua: 3.9, cerveja: 6.9} };
+        const objetoQualquer = { food: {coxinha: 3.9, sopa: 9.9}, drink: {agua: 3.9, cerveja: 6.9} };
         const objetoRetornado = createMenu(objetoQualquer);
         objetoRetornado.order('coxinha');
         objetoRetornado.order('agua');
